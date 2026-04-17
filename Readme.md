@@ -4,7 +4,7 @@
 # 使用方法
 
 ## 编译
-`g++ redDot.cpp -lgdi32 -o redDot.exe`
+`g++ -mwindows reddot.cpp -o reddot.exe -lgdi32 -luser32`
 
 ## 运行
 双击`exe`运行程序，无GUI界面。
